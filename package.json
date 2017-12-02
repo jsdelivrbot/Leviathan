@@ -1,0 +1,43 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "Discord bot development for the Deaf Destiny Network",
+  "main": "lev.js",
+  "dependencies": {
+    "concurrently": "3.5.1",
+    "discord.js": "^11.2.1",
+    "node-pre-gyp": "^0.6.39",
+    "sqlite": "^2.8.0",
+    "sqlite3": "^3.1.13"
+  },
+  "devDependencies": {
+    "eslint-config-standard": "10.2.1",
+    "eslint-plugin-import": "2.8.0",
+    "eslint-plugin-node": "5.2.1",
+    "eslint-plugin-promise": "3.6.0",
+    "eslint-plugin-standard": "3.0.1",
+    "parallelshell": "3.0.2"
+  },
+  "engines": {
+    "node": "8.9.1"
+  },
+  "scripts": {
+    "test": "parallelshell \"nf run nodemon lev.js\" \"nf run nodemon levs.js\""
+  },
+  "keywords": [
+    "Deaf",
+    "Destiny",
+    "Network",
+    "Discord"
+  ],
+  "": {
+    "type": "git",
+    "url": "git+https://github.com/M4V3R1C8/Leviathan.git"
+  },
+  "author": "M4V3R1C8",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/M4V3R1C8/Leviathan/issues"
+  },
+  "homepage": "https://github.com/M4V3R1C8/Leviathan#readme"
+}
